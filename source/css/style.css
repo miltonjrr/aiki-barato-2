@@ -1,17 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/*all content*/
 *{
     margin: 0px;
     padding: 0px;
-}
-body{
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
 }
 
+
+
+/*head content*/
+
+
+
+
+#head-menu {
+    background-color: #FFD21E;
+    width: 1920px;
+    height: 160px;
+    position: absolute;
+}
+
+#menu-bar {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 90px;
+    left:620px;   
+}
+
+#menu-bar button {
+    font-family: 'Poppins', sans-serif;
+    max-height: fit-content;
+    padding: 10px 40px;
+    margin: 10px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+#menu-bar button:hover {
+    text-decoration: underline;
+    
+}
+
+.gg-list, .gg-briefcase, .gg-box{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top:18px;
+    left:-30px;
+}
+
+.gg-math-percent {
+    position: absolute;
+    top:10px;
+    left:-30px;
+}
+
+
+
+.search-bar{
+    position: absolute;
+    top:10px;
+    left:690px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.search-button {
+    position: absolute;
+    top:20px;
+    left: 1175px;
+    width: 35px;
+    height: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.search-button i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*main content styles*/
 main{
     position: absolute;
-    
-    
 }
 
 img{
@@ -95,6 +177,6 @@ span {
 .enter:hover {
     background-color: #3aa1fe;
 }
-
+/*end of main content styles*/
 
 

@@ -5,15 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/source/css/style.css">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/search.css" rel="stylesheet">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/list.css" rel="stylesheet">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/briefcase.css" rel="stylesheet">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/box.css" rel="stylesheet">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/math-percent.css" rel="stylesheet">
     <title>Test</title>
 </head>
 <body>
     <header>
+        <div id="head-menu">
+            <form action="#">
+                <!--search bar-->
+                <input class="search-bar" type="text" placeholder="Digite sua busca...">
+                <button class="search-button" type="submit"><i class="gg-search"></i></button>
+            </form>
+
+            <form id="menu-bar" action="#">
+                <!--menu navigation bars-->
+                <button class="categories"><i class="gg-list"></i>Categorias</button>
+                <button class="partners"><i class="gg-briefcase"></i>Lojas parceiras</button>
+                <button class="produtcs"><i class="gg-box"></i>Produtos</button>
+                <button class="offers"><i class="gg-math-percent"></i>Ofertas</button>
+            </form>
+        </div>
     </header>
 
     <main>
-
-
             <div class="logo">
                 <img src="/source/img/aiki-barato-logo.jpeg" alt="Aiki Barato">
             </div>
