@@ -147,6 +147,7 @@ span {
     height: 25px;
     border: none;
     border-radius: 1px;
+    padding: 0px 5px;
 }
 
 .checkbox {
