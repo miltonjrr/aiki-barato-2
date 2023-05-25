@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 /*all content*/
 *{
     margin: 0px;
@@ -10,21 +10,18 @@
 
 /*head content*/
 
-
-
-
 #head-menu {
     background-color: #FFD21E;
     width: 1920px;
-    height: 160px;
+    height: 150px;
     position: absolute;
 }
 
 #menu-bar {
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 90px;
-    left:620px;   
+    top: 70px;
+    left:590px;   
 }
 
 #menu-bar button {
@@ -59,14 +56,24 @@
     left:-30px;
 }
 
+.gg-close-o{
+    position: absolute;
+    top: -198px;
+    left: 405px;
+    cursor: pointer;
+}
 
+#full-search-bar {
+    position: absolute;
+    left: 30px;
+}
 
 .search-bar{
     position: absolute;
     top:10px;
-    left:690px;
-    width: 500px;
-    height: 40px;
+    left:600px;
+    width: 600px;
+    height: 50px;
     border: none;
     border-radius: 5px;
     padding: 0px 10px;
@@ -74,14 +81,14 @@
 
 .search-button {
     position: absolute;
-    top:20px;
-    left: 1175px;
+    top: 10px;
+    left: 1185px;
     width: 35px;
-    height: 20px;
+    height: 50px;
     border: none;
     background: none;
     cursor: pointer;
-
+    
 }
 
 .search-button i {
@@ -97,7 +104,9 @@ main{
 }
 
 img{
-    max-width: 278px;
+    max-width: 303.5px;
+    position: absolute;
+    left:-29px;
 }
 
 .logo {
@@ -106,29 +115,41 @@ img{
     top: 240px;
 }
 
+.login-icon img{
+    position: absolute;
+    top: 15px;
+    left: 1400px;
+    max-width: 40px;
+    max-height: 40px;
+    cursor: pointer;
+}
 
 .login-container {
     position: absolute;
     width: 480px;
-    height: 550px;
+    height: 600px;
     left: 840px;
     top: 240px;
     background: #FFD21E;
     border-radius: 0px 8px 8px 0px;
     text-align: center;
-    
+}
+
+#login-box{
+    display: none;
 }
 
 .login-title{
-    font-weight:600;
+    font-size: 50px;
     margin:30px;
     margin-bottom: 100px;
 }
 
+
 .login-footer{
     position: absolute;
-    top: 500px;
-    left:60px;
+    top: 560px;
+    left:50px;
     color: black;
 }
 
@@ -136,40 +157,54 @@ img{
     color: black;
 }
 
-
 span {
     position: absolute;
-    left:90px;
+    left:45px;
 }
 
-.email, .pass{
-    width: 300px;
+.email {
+    width: 380px;
     height: 25px;
     border: none;
-    border-radius: 1px;
-    padding: 0px 5px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin-bottom: 25px;
 }
+
+.pass{
+    width: 380px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+
+
+
+
 
 .checkbox {
     position: absolute;
-    left: 90px;
-    top:310px;
+    left: 50px;
+    top:382px;
     
 }
 
 .conectado {
     position: absolute;
-    left: 110px;
+    left: 70px;
 }
+
+
 
 .enter {
     position: absolute;
-    top:375px;
-    left:180px;
-    padding: 8px 30px;
+    top: 460px;
+    left: 185px;
+    padding: 8px 20px;
     border: none;
     border-radius: 9px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.05em;
     background-color: #3AB6FE;

@@ -10,12 +10,13 @@
     <link href="https://unpkg.com/css.gg@2.0.0/icons/css/briefcase.css" rel="stylesheet">
     <link href="https://unpkg.com/css.gg@2.0.0/icons/css/box.css" rel="stylesheet">
     <link href="https://unpkg.com/css.gg@2.0.0/icons/css/math-percent.css" rel="stylesheet">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/close-o.css" rel="stylesheet">
     <title>Test</title>
 </head>
 <body>
     <header>
         <div id="head-menu">
-            <form action="#">
+            <form id="full-search-bar" action="#">
                 <!--search bar-->
                 <input class="search-bar" type="text" placeholder="Digite sua busca...">
                 <button class="search-button" type="submit"><i class="gg-search"></i></button>
@@ -23,34 +24,43 @@
 
             <form id="menu-bar" action="#">
                 <!--menu navigation bars-->
-                <button class="categories"><i class="gg-list"></i>Categorias</button>
-                <button class="partners"><i class="gg-briefcase"></i>Lojas parceiras</button>
-                <button class="produtcs"><i class="gg-box"></i>Produtos</button>
-                <button class="offers"><i class="gg-math-percent"></i>Ofertas</button>
+                <button class="categories"><i class="gg-list"></i>CATEGORIAS</button>
+                <button class="partners"><i class="gg-briefcase"></i>LOJAS PARCEIRAS</button>
+                <button class="produtcs"><i class="gg-box"></i>PRODUTOS</button>
+                <button class="offers"><i class="gg-math-percent"></i>OFERTAS</button>
             </form>
+
+            <div class="login-icon">
+                <img id="show-login" src="/source/img/login-icon.png" alt="login-icon" title="Login">
+            </div>
+
+
         </div>
     </header>
 
     <main>
+
+        <div id="login-box" style="display: none;">
             <div class="logo">
                 <img src="/source/img/aiki-barato-logo.jpeg" alt="Aiki Barato">
             </div>
 
 
             <div class="login-container">
-                <h1 class="login-title">FAÇA O LOGIN</h1>
-                <form action="">
+                <h1 class="login-title">FAÇA LOGIN</h1>
+                <span id="close-icon"><i class="gg-close-o"></i></span>
+                <form class="login-table" action="">
                     <span>E-mail:</span> <br>
                     <input class="email" type="email"><br>
                     <span>Senha:</span> <br>
                     <input class="pass" type="password"> <br><br>
                     <input class="checkbox" type="checkbox"> <p class="conectado">Mantenha-me conectado</p>
                     <button class="enter" type="submit">ENTRAR</button>
-
-
-                    <p class="login-footer">Não tem conta? Faça uma nova <a href="'">clicando aqui.</a></p>
                 </form>
+                <p class="login-footer">Não tem conta? Faça uma nova <a href="#">clicando aqui.</a></p>
             </div>
+
+        </div>
     </main>
 
     <footer>
